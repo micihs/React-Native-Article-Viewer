@@ -16,5 +16,6 @@ const persistConfig = {
     whitelist: ['papers', 'donations'],
 };
 
+
 export const persistReducer = rootReducer => persistReducerRP(persistConfig, rootReducer);
 export const persistStore = store => persistStoreRP(store);
